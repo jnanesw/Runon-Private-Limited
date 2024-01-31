@@ -93,7 +93,7 @@ const WebsiteBuilder = () => {
                 onChange={(e) => handleSectionContentChange(section.id, e.target.value)}
               />
             ) : (
-              <img src={section.content} alt="image" width="100" height="100" />
+              <img src={section.content} alt="dynamic Uploads" width="100" height="100" />
             )}
             <button onClick={() => handleSectionDelete(section.id)}>Delete</button>
           </div>
